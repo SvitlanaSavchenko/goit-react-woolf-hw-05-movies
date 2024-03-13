@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #bde2ee;
+  padding: 10px 20px;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: inline;
+  margin-right: 20px;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+.link {
+  color: #302e2e;
+  text-decoration: none;
+  font-size: 24px;
+}
+.link:hover,
+.link:focus {
+  color: #c92121;
+}
+.active {
+  color: #ff0000;
+  font-weight: bold;
+}
